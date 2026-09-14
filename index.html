@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect - Soluções em Tecnologia</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo-container">
+        <img src="Connect_LOGO.png" alt="Logo Connect" class="logo-img">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="empresa.html">Empresa</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="carousel">
+    <button class="carousel-btn prev" id="prevBtn" aria-label="Slide anterior">&#10094;</button>
+    <button class="carousel-btn next" id="nextBtn" aria-label="Próximo slide">&#10095;</button>
+
+    <div class="carousel-container" id="carouselContainer">
+      
+      <div class="carousel-slide">
+        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80" alt="Infraestrutura e Redes">
+        <div class="carousel-caption">
+          <h2>1. Infraestrutura e Redes</h2>
+          <p>Configuração completa de servidores, roteadores, switches, VPNs e cabeamento estruturado para máxima estabilidade.</p>
+        </div>
+      </div>
+
+      <div class="carousel-slide">
+        <img src="Segurança da Informação e Monitoramento.jpg" alt="Segurança da Informação e Monitoramento">
+        <div class="carousel-caption">
+          <h2>2. Segurança da Informação e Monitoramento</h2>
+          <p>Proteção contra vulnerabilidades, controle de acesso, firewalls e monitoramento contínuo de dados corporativos.</p>
+        </div>
+      </div>
+
+      <div class="carousel-slide">
+        <img src="Suporte Técnico.jpg" alt="Suporte Técnico e Help Desk">
+        <div class="carousel-caption">
+          <h2>3. Suporte Técnico & Help Desk</h2>
+          <p>Diagnóstico e solução de problemas em computadores, redes e softwares com atendimento remoto ou presencial.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="carousel-indicators">
+      <span class="dot active" data-slide="0"></span>
+      <span class="dot" data-slide="1"></span>
+      <span class="dot" data-slide="2"></span>
+    </div>
+  </section>
+
+  <section id="servicos" class="section-padding bg-light">
+    <div class="container">
+      <h2 class="section-title">Nossos Serviços</h2>
+      <p class="section-subtitle">Soluções planejadas para a estabilidade e segurança da sua empresa</p>
+
+      <div class="grid-3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80" alt="Infraestrutura e Redes">
+          <div class="card-body">
+            <h3 class="card-title">1. Infraestrutura e Redes</h3>
+            <p class="card-text">Configuração de roteadores, switches, servidores, Wi-Fi, cabeamento e VPNs.</p>
+            <span class="card-price">A partir de R$ 1.500,00</span>
+            <a href="servicos.html#servico1" class="btn btn-primary">Solicitar Orçamento</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Segurança da Informação e Monitoramento.jpg" alt="Segurança da Informação e Monitoramento">
+          <div class="card-body">
+            <h3 class="card-title">2. Segurança e Monitoramento</h3>
+            <p class="card-text">Firewalls, análise de vulnerabilidades, controle de acessos e monitoramento contínuo.</p>
+            <span class="card-price">A partir de R$ 1.200,00/mês</span>
+            <a href="servicos.html#servico2" class="btn btn-primary">Solicitar Orçamento</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Suporte Técnico.jpg" alt="Suporte Técnico">
+          <div class="card-body">
+            <h3 class="card-title">3. Suporte Técnico & Help Desk</h3>
+            <p class="card-text">Atendimento para computadores, redes e sistemas com diagnóstico remoto ou presencial.</p>
+            <span class="card-price">A partir de R$ 800,00/mês</span>
+            <a href="servicos.html#servico3" class="btn btn-primary">Solicitar Orçamento</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="depoimentos" class="section-padding">
+    <div class="container">
+      <h2 class="section-title">Depoimentos de Clientes</h2>
+      <p class="section-subtitle">Veja a opinião de quem confia na Connect</p>
+
+      <div class="grid-3">
+        <div class="card card-body">
+          <p class="card-text">"A Connect transformou nossa rede. Antes tínhamos constantes quedas, hoje trabalhamos com total estabilidade."</p>
+          <strong>Marcelo Almeida</strong>
+          <small>Diretor da Almeida Contabilidade</small>
+        </div>
+
+        <div class="card card-body">
+          <p class="card-text">"A equipe de segurança fez um trabalho excelente e transparente na proteção dos nossos dados."</p>
+          <strong>Juliana Costa</strong>
+          <small>Gerente da Costa & Associados</small>
+        </div>
+
+        <div class="card card-body">
+          <p class="card-text">"Sempre que temos algum problema de TI, a Connect nos atende rapidamente com alto nível técnico."</p>
+          <strong>André Ferreira</strong>
+          <small>Sócio da Ferreira Comércio</small>
+        </div>
+
+        <div class="card card-body">
+          <p class="card-text">"Reduzimos expressivamente o tempo de inatividade da nossa infraestrutura com o suporte preventivo."</p>
+          <strong>Patrícia Mendonça</strong>
+          <small>Gerente de Operações da LogTech</small>
+        </div>
+
+        <div class="card card-body">
+          <p class="card-text">"Excelente atendimento e suporte em segurança da informação para nossa empresa."</p>
+          <strong>Roberto Silva</strong>
+          <small>CEO da Inovar Soluções</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-padding bg-light">
+    <div class="container">
+      <h2 class="section-title">Perguntas Frequentes</h2>
+      <details>
+        <summary>Como funciona o atendimento por chamados?</summary>
+        <p style="margin-top: 0.5rem;">Os atendimentos podem ser remotos ou presenciais, sendo todos acompanhados via chamados técnicos.</p>
+      </details>
+      <details>
+        <summary>Qual é a região de atendimento da empresa?</summary>
+        <p style="margin-top: 0.5rem;">Atendemos presencialmente na região de Chapecó-SC e de forma remota para todo o país.</p>
+      </details>
+    </div>
+  </section>
+
+  <a href="https://wa.me/5549991700069" class="whatsapp-btn" target="_blank" title="Contato via WhatsApp">📱</a>
+
+  <footer>
+    <div class="container">
+      <p>Connect — Conectando seu negócio à tecnologia!</p>
+      <p><small>Desenvolvido por: <strong>[Seu Nome Completo]</strong> | Unoesc 2026</small></p>
+    </div>
+  </footer>
+
+  <script>
+    const container = document.getElementById('carouselContainer');
+    const slides = document.querySelectorAll('.carousel-slide');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const dots = document.querySelectorAll('.dot');
+
+    let currentIndex = 0;
+    const totalSlides = slides.length;
+    let autoSlideTimer;
+
+    function updateCarousel() {
+      container.style.transform = `translateX(-${currentIndex * 100}%)`;
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
+      });
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      updateCarousel();
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      updateCarousel();
+    }
+
+    function startAutoSlide() {
+      autoSlideTimer = setInterval(nextSlide, 5000);
+    }
+
+    function resetAutoSlide() {
+      clearInterval(autoSlideTimer);
+      startAutoSlide();
+    }
+
+    // Event Listeners
+    nextBtn.addEventListener('click', () => {
+      nextSlide();
+      resetAutoSlide();
+    });
+
+    prevBtn.addEventListener('click', () => {
+      prevSlide();
+      resetAutoSlide();
+    });
+
+    dots.forEach(dot => {
+      dot.addEventListener('click', (e) => {
+        currentIndex = parseInt(e.target.dataset.slide);
+        updateCarousel();
+        resetAutoSlide();
+      });
+    });
+
+    startAutoSlide();
+  </script>
+
+</body>
+</html>
